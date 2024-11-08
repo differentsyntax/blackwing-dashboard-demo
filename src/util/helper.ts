@@ -1,5 +1,13 @@
 import { SolanaDataProps } from "../components/trading-chart/TradingChart";
 
+/**
+ * Normalizes Solana data to fit within specified width and height for charting.
+ *
+ * @param {SolanaDataProps[]} data - Array of Solana data points with price properties.
+ * @param {number} width - The width of the chart area.
+ * @param {number} height - The height of the chart area.
+ * @returns {Array<{ x: number, y: number }>} - An array of normalized points with x and y coordinates.
+ */
 export const normalizeData = (data: SolanaDataProps[], width: number, height: number) => {
     const prices = data.map(entry => entry.price);
 

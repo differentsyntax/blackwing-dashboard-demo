@@ -12,10 +12,16 @@ type TradingChartProps = {
   height?: number;
 }
 
+/**
+ * TradingChart component for displaying a line chart of Solana prices over the last 24 hours.
+ *
+ * @param {Object} props - Component properties.
+ * @param {Array<{ time: string, price: number }>} props.data - Array of data points containing timestamps and Solana prices.
+ * @param {number} [props.width=800] - Optional width of the chart in pixels (default: 800).
+ * @param {number} [props.height=425] - Optional height of the chart in pixels (default: 425).
+ * @returns {JSX.Element} - The rendered TradingChart component, showing Solana price trends and a grid.
+ */
 const TradingChart: React.FC<TradingChartProps> = ({data, width = 800, height = 425}) => {
-    if (data.length === 0) {
-        return <p>No data available</p>;
-    }
 
     const prices = data.map(entry => entry.price);
     const points = normalizeData(data, width, height);
@@ -24,6 +30,10 @@ const TradingChart: React.FC<TradingChartProps> = ({data, width = 800, height = 
     const yAxisMax = 200;
     const priceRange = yAxisMax - yAxisMin;
 
+    /**
+     * Renders grid lines for the chart at regular intervals.
+     * @returns {JSX.Element[]} - Array of SVG line elements for the grid.
+     */
     const renderGridLines = () => {
         const lines = [];
 
@@ -38,6 +48,10 @@ const TradingChart: React.FC<TradingChartProps> = ({data, width = 800, height = 
         return lines;
     };
 
+    /**
+     * Renders the X-axis labels based on the timestamps in the data.
+     * @returns {JSX.Element} - SVG group of line and text elements for the X-axis.
+     */
     const renderXAxis = () => {
         const xLabels = [];
         const timeFormatter = new Intl.DateTimeFormat([], { hour: 'numeric', minute: 'numeric', hour12: true });
@@ -61,6 +75,10 @@ const TradingChart: React.FC<TradingChartProps> = ({data, width = 800, height = 
         );
     };
 
+    /**
+     * Renders the Y-axis labels for price levels.
+     * @returns {JSX.Element} - SVG group of line and text elements for the Y-axis.
+     */
     const renderYAxis = () => {
         const yLabels = [];
         const numberOfLabels = 5;

@@ -1,3 +1,9 @@
+/**
+ * AnimatedCard component that displays an informational card with animated border streak effect.
+ *
+ * @component
+ * @returns {JSX.Element} - The rendered AnimatedCard component.
+ */
 const AnimatedCard = () => {
     return (
       <div className="relative p-0.5 rounded-lg overflow-hidden col-span-1 border">

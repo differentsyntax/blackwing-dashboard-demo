@@ -1,6 +1,12 @@
 import logo from "./../../assets/logo.png";
 import SignInButton from "./../sign-in-button/SignInButton";
 
+/**
+ * Navbar component displaying a logo, navigation links, and a sign-in button.
+ *
+ * @component
+ * @returns {JSX.Element} - The rendered Navbar component.
+ */
 const Navbar = () => {
   return (
     <nav className="flex items-center p-4">
