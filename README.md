@@ -8,6 +8,9 @@ I enjoyed my conversation with Zo and wanted to double down on my interest in wo
 
 I am ready to join the team immediately at a level you believe would be suitable for me but my main priority is to get better at UI development, learn from the best, mentor the best eventually, and do my best day in and day out. I bring to the table an infectious energy, move-fast mindset, and a love for New York City. 
 
+<img width="1433" alt="Screenshot 2024-11-07 at 8 00 41 PM" src="https://github.com/user-attachments/assets/8e49bf86-7cbc-4259-aff7-2a851eec0f91">
+
+
 ### Usage
 
 1.  Clone the repo locally
