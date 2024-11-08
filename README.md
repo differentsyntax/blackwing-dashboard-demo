@@ -2,7 +2,7 @@ Blackwing Demo
 
 ### About
 
-Designed and implemented a few components (in-progress) browsed through during the intro call with Zorayr, Nov 7. Used React, TypeScript and TailwindCSS.
+Designed and implemented a few components (in-progress) browsed through during the intro call with Zorayr on Nov 7. I have used React, TypeScript and TailwindCSS.
 
 I enjoyed my conversation with Zo and wanted to double down on my interest in working for Blackwing by showcasing that I am a go-getter, constantly learning and have decent experience working with the tech mentioned above. I admit that this is the first time I have built a chart component completely without using any external libraries, and it might have a few responsive issues. I will be improving it incrementally and will be building upon this webpage further with fixing of the responsive issues, addition of the real-time data displaying card-component, and unit testing. 
 
