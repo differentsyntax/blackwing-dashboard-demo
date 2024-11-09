@@ -11,7 +11,7 @@ const SignInButton = () => {
   return (
     <Link
       to="/login"
-      className="hover:text-gray-300 m-auto rounded-full bg-zinc-900 h-10 w-32 mr-4 text-white text-lg flex justify-center items-center cursor-pointer"
+      className="hover:text-gray-300 ml-auto mr-4 rounded-full bg-zinc-900 h-10 w-32 text-white text-lg flex justify-center items-center cursor-pointer"
     >
       <button className="flex items-center space-x-2">
         <FaUser className="text-white w-5 h-5" />

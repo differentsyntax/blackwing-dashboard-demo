@@ -11,7 +11,8 @@ import { solanaData } from "../../util/helper";
  */
 const DashboardPage = () => {
   return (
-    <div className="grid gap-4 m-10 xs:grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-4 p-5">
+    // hiding the components on smaller screens while I fix them and make them better responsive
+    <div className="md:grid md:grid-cols-4 lg:grid-cols-4 lg:grid gap-4 m-10 mt-20 hidden p-5">
       <TradingChart data={solanaData} />
       <AnimatedCard />
       <AutoUpdateDataContainer />

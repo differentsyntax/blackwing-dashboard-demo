@@ -3,6 +3,9 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,tsx,jsx}"],
   theme: {
     extend: {
+      colors: {
+        backgroundclr: "#141413",
+      },
       keyframes: {
         "border-streak": {
           "0%": { backgroundPosition: "0% 50%" },
