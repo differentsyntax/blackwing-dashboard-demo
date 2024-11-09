@@ -14,7 +14,8 @@ Update [11/8]:
 - Additional styling for the navbar elements
 - JSDoc
 
-<img width="1433" alt="Screenshot 2024-11-07 at 8 00 41 PM" src="https://github.com/user-attachments/assets/8e49bf86-7cbc-4259-aff7-2a851eec0f91">
+<img width="1432" alt="Screenshot 2024-11-08 at 9 21 08 PM" src="https://github.com/user-attachments/assets/5110d9f6-377f-492c-aec6-7d99071a52e5">
+<img width="320" alt="Screenshot 2024-11-08 at 9 21 36 PM" src="https://github.com/user-attachments/assets/e894f42d-ca69-431e-890f-c625309c6b4f">
 
 ### Usage
 
