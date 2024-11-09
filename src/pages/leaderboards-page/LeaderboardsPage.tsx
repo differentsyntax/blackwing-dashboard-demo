@@ -1,4 +1,4 @@
-const MarketsPage = () => {
+const LeaderboardsPage = () => {
   return (
     <div className="flex justify-center items-center text-xl text-white h-screen">
       Incoming!
@@ -6,4 +6,4 @@ const MarketsPage = () => {
   );
 };
 
-export default MarketsPage;
+export default LeaderboardsPage;

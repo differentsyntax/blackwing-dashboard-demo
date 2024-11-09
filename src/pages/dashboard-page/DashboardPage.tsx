@@ -16,7 +16,7 @@ const DashboardPage = () => {
       <AnimatedCard />
       <AutoUpdateDataContainer />
     </div>
-  )
-}
+  );
+};
 
 export default DashboardPage;

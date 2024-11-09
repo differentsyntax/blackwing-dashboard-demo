@@ -6,7 +6,7 @@ const AutoUpdateDataContainer = () => {
         Auto-updating data container with real-time updates
       </p>
     </div>
-  )
-}
+  );
+};
 
 export default AutoUpdateDataContainer;
