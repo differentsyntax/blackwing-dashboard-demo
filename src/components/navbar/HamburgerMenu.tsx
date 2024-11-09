@@ -17,29 +17,44 @@ const HamburgerMenu = () => {
       {isHamburgerMenuOpen && (
         <div className="fixed top-20 left-0 w-full h-full bg-backgroundclr text-white flex justify-start z-50 pl-10">
           <ul className="space-y-2">
-            <li className="text-lg text-white mx-2 px-2 py-4">
+            <li
+              className="text-lg text-white mx-2 px-2 py-4"
+              onClick={() => setHamburgerMenuOpen(!isHamburgerMenuOpen)}
+            >
               <Link to="/markets" className="flex items-center">
                 <GiTwoCoins className="mx-2" />
                 Markets
               </Link>
             </li>
-            <li className="text-lg text-white mx-2 px-2 py-4">
+            <li
+              className="text-lg text-white mx-2 px-2 py-4"
+              onClick={() => setHamburgerMenuOpen(!isHamburgerMenuOpen)}
+            >
               <Link to="/earn" className="flex items-center">
                 <FaParachuteBox className="mx-2" />
                 Airdrops
               </Link>
             </li>
-            <li className="text-lg text-white mx-2 px-2 py-4">
+            <li
+              className="text-lg text-white mx-2 px-2 py-4"
+              onClick={() => setHamburgerMenuOpen(!isHamburgerMenuOpen)}
+            >
               <Link to="/leaderboards" className="flex items-center">
                 <MdBarChart className="mx-2" />
                 Leaderboards
               </Link>
             </li>
-            <li className="text-lg text-white mx-2 px-2 py-4 flex items-center">
+            <li
+              className="text-lg text-white mx-2 px-2 py-4 flex items-center"
+              onClick={() => setHamburgerMenuOpen(!isHamburgerMenuOpen)}
+            >
               <FaDiscord className="mx-2" />
               Discord
             </li>
-            <li className="text-lg text-white mx-2 px-2 py-4 flex items-center">
+            <li
+              className="text-lg text-white mx-2 px-2 py-4 flex items-center"
+              onClick={() => setHamburgerMenuOpen(!isHamburgerMenuOpen)}
+            >
               <FaBookOpen className="mx-2" />
               Manual
             </li>
